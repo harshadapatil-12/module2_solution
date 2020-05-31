@@ -1,0 +1,77 @@
+@media screen and (min-width:933px) and (max-width: 2500px) {
+
+    .menu1,
+    .menu2,
+    .menu3{
+		background-color:gray;
+		width:32%;
+		float:left;
+	}
+}
+
+@media screen and (min-width:600px) and (max-width: 932px) {
+
+    .menu1,
+    .menu2{
+    		background-color:gray;
+		width:48%;
+		float:left;
+	}
+
+    .menu3{
+		background-color:gray;
+		width:96%;
+		float:left;
+	}
+}
+
+@media screen and (min-width:400px) and (max-width: 599px) {
+
+    .menu{
+		background-color:gray;
+	}
+}
+
+   
+.title{
+	width:100%;
+	text-align:center;
+} 
+
+.menu{
+	min-height:200px;
+	padding:1px;
+	background-color:gray;
+	margin:2px;
+	border:1px solid black;
+}
+
+.menutitle{
+	float:right;
+	height:30px;
+	width:100px;
+	text-align:center;
+	line-height:30px;
+	margin:0px;
+	padding:0px;
+}
+
+.red{
+	background-color:red;
+	
+}
+
+.blue{
+	background-color:blue;
+}
+
+.yellow{
+	background-color:yellow;
+}
+
+.content{
+	padding:20px;
+}
+
+}
+
